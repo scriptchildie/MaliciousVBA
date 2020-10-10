@@ -7,7 +7,7 @@ Instead of trying to replicate that I chose a different route. I tried using the
 
 ## Running Powershell in VBA
 
-In order to run powershell commands using VBA I have used the code published in Microsoft's Docs [here](https://docs.microsoft.com/en-us/office/vba/access/concepts/windows-api/determine-when-a-shelled-process-ends). The code is ideal for this project because it doesn't get flagged by the Antivirus or AMSI. It also spawns a seperate process. That's particularly helpful since our script won't be terminated if the victim closes Word. 
+In order to run powershell commands using VBA I have used the code published in Microsoft's Docs [(here)](https://docs.microsoft.com/en-us/office/vba/access/concepts/windows-api/determine-when-a-shelled-process-ends). The code is ideal for this project because it doesn't get flagged by the Antivirus or AMSI. It also spawns a seperate process. That's particularly helpful since our script won't terminate if the victim closes Word. 
 
 ## Powershell Command 
 The command I wanted to run in this macro is the following:
